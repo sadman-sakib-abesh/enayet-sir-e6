@@ -1,0 +1,313 @@
+/*style for app component*/
+*{
+  margin: 0px;
+}
+body{
+  background-color: #fafafa;
+
+}
+
+
+
+.header_app{
+  padding:10px;
+  padding-right:200px ;
+  padding-left: 200px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  width:100%;
+  z-index: 9999;
+  position:fixed;
+  top: 0px;
+}
+
+
+
+.input{
+  width: 60%;
+}
+.input-2{
+  width: 80%;
+  height: 100px;
+  border:2px solid rgb(192, 191, 191);
+}
+
+.progress{
+  height: 5px;
+  width: 80%;
+}
+
+
+.file_upload{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.form_image{
+  width: 100px;
+}
+
+
+.app_signup{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+/*__style for app component__*/
+
+.sign_up{
+  float: right;
+  padding:20px;
+  
+}
+
+
+.sign_up_2{
+  top:10px;
+  right:15%;
+  display: flex;
+  flex-direction: row;
+  padding:2px;
+  position: fixed;
+
+}
+
+.post_container{
+  margin-top: 100px;
+  margin-left: 205px;
+  display: inline-block;
+}
+
+#feed{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.side{
+  display: inline-block;
+  padding: 100px;
+  position: fixed;
+  right: 15%;
+}
+
+.side b{
+  color: rgb(158, 157, 157);
+  font-weight: 300px;
+}
+
+
+.suggestion{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+#likers_head{
+  border-bottom: 2px solid lightgray;
+  width: 100%;
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 63, 63); 
+
+  height: 10px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a09c98; 
+  transition: 1s;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+    #i-bar-2{
+      text-decoration: none;
+      margin: 5px;
+      position: absolute;
+      color: rgb(245, 243, 239);
+      font-size: 22px;
+      text-decoration: none;
+      }
+
+
+
+
+
+
+
+.suggestion h5{
+  text-align: center;
+  font-weight: 900px;
+  font-size: 13px;
+color: rgb(47, 48, 47);
+}
+/*style for post component*/
+.post{
+  max-width:600px ;
+background-color: white;
+border:1px solid lightgray;
+border-radius: 1px;
+margin-bottom: 45px;
+}
+
+.first_paper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.nav_avatar{
+  margin-right: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+
+.post_avatar{
+  margin-right: 10px;
+}
+.image_post{
+width: 100%;
+
+
+}
+
+.post_text{
+  font-weight: normal;
+  padding: 10px;
+}
+
+
+#avatar-head{
+  font-size: 25px;
+  font-weight: normal;
+  color: black;
+  padding-right:20px;
+  padding-top: 5px;
+}
+
+#heart-1{
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(66, 65, 65);
+  padding:10px;
+}
+#heart-2{
+  font-size: 25px;
+
+  color: rgb(255, 36, 36);
+  padding:10px;
+}
+
+.post_header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.comment .in-put{
+  border:0px;
+  width: 70%;
+  padding:20px;
+  outline: 0px;
+}
+
+.pil{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.pil .second{
+  overflow-x: hidden;
+overflow-y: scroll;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pil .second .post_header2{
+padding: 10px;
+float: left;
+display: flex;
+  flex-direction: row;
+
+  text-align: center;
+}
+.pil .second .post_header{
+  width: 100%;
+border-bottom: 1px solid lightgray;
+float: left;
+}
+
+.comments-see{
+  color: rgb(138, 138, 137);
+  padding: 10px;
+}
+.header_text{
+  color: rgb(2, 56, 18);
+  font-weight:400;
+  border-bottom: 1px solid rgb(56, 214, 24);
+}
+.comment .btn{
+  border:0px;
+  padding:18px;
+  color: rgb(6, 233, 18);
+  font-weight: 600;
+  float: right;
+  display: inline-block;
+}
+
+.comment .btn-2{
+  border:0px;
+  padding:18px;
+  color: rgb(145, 253, 160);
+  font-weight: 600;
+  float: right;
+  display: inline-block;
+}
+
+
+
+.comment{
+ width: 100%;
+  object-fit: contain;
+  border-top: 1px solid rgb(226, 226, 226);
+  height: 55px;
+bottom: 0px;
+
+}
+
+/*__style for post component__*/
+
+
+
+
+
+
+
+
+
+
+
+
+
